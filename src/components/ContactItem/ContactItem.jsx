@@ -20,7 +20,7 @@ function ContactItem({ contact }) {
     <ContactItems>
       <ContactName>{contact.name}</ContactName>
       <ContactNumber>{contact.number}</ContactNumber>
-      <Button onClick={handleDelete}></Button>
+      <Button onClick={handleDelete}>Delate</Button>
     </ContactItems>
   );
 }
